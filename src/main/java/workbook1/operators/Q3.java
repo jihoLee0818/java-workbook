@@ -16,5 +16,7 @@ public class Q3 {
 
         //두 결과 출력
         System.out.println(a + " " + b);
+
+        sc.close();
     }
 }
