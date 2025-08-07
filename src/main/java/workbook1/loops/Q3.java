@@ -12,7 +12,7 @@ public class Q3 {
         int i = 1;
         int sum = 0;
 
-        //do-while 문을 이용하여 n보다 작은 3의 변수를 sum에 더해주는 식 작성
+        //do-while 문을 이용하여 n보다 작은 3의 배수를 sum에 더해주는 식 작성
         do {
             if (i % 3 == 0)
                 sum += i;
