@@ -30,5 +30,6 @@ public class Q3 {
         Book b2 = new Book(t2, a2, p2); // TODO: 생성자 작성 후 주석 해제
         b1.printInfo(); // TODO: 생성자 작성 후 주석 해제
         b2.printInfo(); // TODO: 생성자 작성 후 주석 해제
+        sc.close();
     }
 }

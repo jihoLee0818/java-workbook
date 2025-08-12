@@ -21,5 +21,6 @@ public class Q2 {
         Circle c = new Circle(radius); // TODO: 생성자 작성 후 주석 해제
         // TODO: c.getCircumference() 출력
         System.out.println(c.getCircumference());
+        sc.close();
     }
 }

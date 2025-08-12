@@ -24,5 +24,6 @@ public class Q1 {
         Rectangle rect = new Rectangle(w, h); // TODO: 생성자 작성 후 주석 해제
         // TODO: rect.getArea() 출력
         System.out.println(rect.getArea());
+        sc.close();
     }
 }
