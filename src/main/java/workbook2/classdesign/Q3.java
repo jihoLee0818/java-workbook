@@ -10,6 +10,7 @@ class Book {
     public Book(String title, String author, int price) {
         this.title = title;
         this.author = author;
+        this.price = price;
     }
     void printInfo() {
         // TODO: 정보 출력
