@@ -13,5 +13,6 @@ public class Q1 {
         int b = sc.nextInt();
         // TODO: add 호출 후 결과 출력
         System.out.println(add(a,b));
+        sc.close();
     }
 }

@@ -12,5 +12,6 @@ public class Q2 {
         String str = sc.next();
         // TODO: toUpper 호출 후 결과 출력
         System.out.println(toUpper(str));
+        sc.close();
     }
 }

@@ -14,5 +14,6 @@ public class Q4 {
         // TODO: concatStrings 호출 후 결과 출력
         String concatStrings = concatStrings(s1, s2);
         System.out.println(concatStrings);
+        sc.close();
     }
 }

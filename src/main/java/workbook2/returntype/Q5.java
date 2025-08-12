@@ -31,5 +31,6 @@ public class Q5 {
         Person older = olderPerson(p1, p2); // TODO: olderPerson 메서드 작성 후 주석 해제
         // TODO: older.name과 older.age 출력
         System.out.println(older.name + " " + older.age);
+        sc.close();
     }
 }
