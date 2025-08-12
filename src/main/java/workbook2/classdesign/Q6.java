@@ -17,15 +17,15 @@ class Time {
     public void addSeconds(int s) {
         this.second += s;
         if (this.second >= 60) {
-            this.minute = this.minute + this.second / 60;
-            this.second = this.second % 60;
+            this.minute += this.second / 60;
+            this.second %= 60;
         }
         if (this.minute >= 60) {
-            this.hour = this.hour + this.minute / 60;
-            this.minute = this.minute % 60;
+            this.hour += this.minute / 60;
+            this.minute %= 60;
         }
         if (this.hour >= 24) {
-            this.hour = this.hour % 24;
+            this.hour %= 24;
         }
     }
 }
