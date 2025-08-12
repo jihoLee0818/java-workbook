@@ -42,5 +42,6 @@ public class Q5 {
         // TODO: results 배열과 Calculator.history 출력
         System.out.println(results[0] + " " + results[1] + " " + results[2]);
         System.out.println(Calculator.history);
+        sc.close();
     }
 }
