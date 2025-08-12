@@ -1,6 +1,5 @@
 package main.java.workbook2.classdesign;
 
-import java.awt.geom.Area;
 import java.util.Scanner;
 
 class Rectangle {
