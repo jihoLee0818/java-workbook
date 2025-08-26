@@ -6,9 +6,7 @@ public class Q6 {
     // TODO: multiply 오버로딩 (int[]), (int[][], int[][])
     public static int multiply(int[] arr) {
         int product = 1;
-        for (int i = 0; i < arr.length; i++) {
-            product *= arr[i];
-        }
+        for (int j : arr) product *= j;
         return product;
     }
 
