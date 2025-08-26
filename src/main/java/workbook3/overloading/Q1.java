@@ -1,6 +1,5 @@
 package main.java.workbook3.overloading;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Q1 {
