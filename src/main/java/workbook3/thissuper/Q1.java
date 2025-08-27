@@ -7,9 +7,12 @@ class Person {
     int age;
     Person(String name, int age) {
         // TODO: this 사용해 초기화
+        this.name = name;
+        this.age = age;
     }
     void printInfo() {
         // TODO: this를 사용하여 필드 출력
+        System.out.println(this.name + " " + this.age);
     }
 }
 
