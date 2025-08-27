@@ -9,14 +9,18 @@ class Vehicle {
 }
 
 class Car extends Vehicle {
+    @Override
     void move() {
         // TODO: "Car is moving" 출력
+        System.out.println("Car is moving");
     }
 }
 
 class Bike extends Vehicle {
+    @Override
     void move() {
         // TODO: "Bike is moving" 출력
+        System.out.println("Bike is moving");
     }
 }
 
