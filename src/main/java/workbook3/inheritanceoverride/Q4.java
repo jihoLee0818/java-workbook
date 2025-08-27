@@ -18,6 +18,7 @@ class Student extends Person {
     }
     void introduce() {
         // TODO: 학생 소개 출력
+        System.out.println("Hello, I'm " + name + " student.");
     }
 }
 
@@ -27,6 +28,7 @@ class Teacher extends Person {
     }
     void introduce() {
         // TODO: 교사 소개 출력
+        System.out.println("Hello, I'm " + name + " teacher.");
     }
 }
 
