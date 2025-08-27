@@ -19,6 +19,7 @@ class BankAccount {
         } else {
             return -1;
         }
+        // return inputPw.equals(password) ? balance : -1; 해당 연산으로도 가능
     }
 }
 
