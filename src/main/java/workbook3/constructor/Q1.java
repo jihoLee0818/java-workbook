@@ -6,9 +6,11 @@ class Student {
     String name;
     Student() {
         // TODO: name 초기화
+        this.name = "Unknown";
     }
     Student(String name) {
         // TODO: name 초기화
+        this.name = name;
     }
 }
 
@@ -19,5 +21,7 @@ public class Q1 {
         Student s1 = new Student();
         Student s2 = new Student(name);
         // TODO: s1.name과 s2.name 출력
+        System.out.println(s1.name);
+        System.out.println(s2.name);
     }
 }
