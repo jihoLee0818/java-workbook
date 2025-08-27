@@ -7,12 +7,16 @@ class Car {
     int price;
     Car() {
         // TODO
+        this(0);
     }
     Car(String model, int price) {
         // TODO
+        this.model = model;
+        this.price = price;
     }
     Car(int price) {
         // TODO
+        this("Unknown", price);
     }
 }
 
