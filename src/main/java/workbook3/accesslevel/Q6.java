@@ -4,13 +4,23 @@ import java.util.Scanner;
 
 class SecureFile {
     private String fileName;
+
     SecureFile(String fileName) {
         this.fileName = fileName;
     }
+
     public void read(boolean hasPermission) {
         // TODO: 권한이 있으면 파일 이름 출력, 없으면 "권한 없음" 출력
+        if (hasPermission) {
+            System.out.println("Reading " + fileName);
+
+        } else {
+            System.out.println("권한 없음");
+        }
+
     }
 }
+
 
 public class Q6 {
     public static void main(String[] args) {
