@@ -6,10 +6,11 @@ class Student {
     private String name;
     public void setName(String name) {
         // TODO: name 설정
+        this.name = name;
     }
     public String getName() {
         // TODO: name 반환
-        return "";
+        return name;
     }
 }
 
