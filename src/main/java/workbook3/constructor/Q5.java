@@ -8,12 +8,17 @@ class Employee {
     int salary;
     Employee() {
         // TODO: 기본값 설정
+        this("Unknown");
     }
     Employee(String name, String dept, int salary) {
         // TODO
+        this.name = name;
+        this.dept = dept;
+        this.salary = salary;
     }
     Employee(String name) {
         // TODO
+        this(name, "Unknown",0);
     }
 }
 
