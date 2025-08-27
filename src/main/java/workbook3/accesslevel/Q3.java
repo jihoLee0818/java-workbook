@@ -17,6 +17,7 @@ class Employee {
 
     public void setSalary(int salary) {
         // TODO: salary 설정
+        this.salary = salary;
     }
 }
 
