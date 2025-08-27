@@ -13,7 +13,7 @@ class FullTimeEmployee extends Employee {
     }
     double getPay() {
         // TODO: 정규직 급여 계산
-        return 0;
+        return monthlySalary;
     }
 }
 
@@ -25,7 +25,7 @@ class PartTimeEmployee extends Employee {
     }
     double getPay() {
         // TODO: 시간제 급여 계산
-        return 0;
+        return hourlyRate * hours;
     }
 }
 
