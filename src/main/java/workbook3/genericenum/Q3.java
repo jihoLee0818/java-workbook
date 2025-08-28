@@ -5,7 +5,11 @@ import java.util.Scanner;
 public class Q3 {
     static <T extends Number> double sumNumbers(T[] arr) {
         // TODO: arr 요소의 합을 반환
-        return 0;
+        double sum = 0;
+        for (T t : arr) {
+            sum += t.doubleValue();
+        }
+        return sum;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
