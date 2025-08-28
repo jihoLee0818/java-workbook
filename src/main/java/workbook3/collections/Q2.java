@@ -11,5 +11,8 @@ public class Q2 {
         List<Integer> list = new ArrayList<>();
         for(int i=1;i<=n;i++) list.add(i);
         // TODO: list를 역순으로 출력
+        for (int j=n-1;j>=0;j--) {
+            System.out.print((list.get(j)) + " ");
+        }
     }
 }
