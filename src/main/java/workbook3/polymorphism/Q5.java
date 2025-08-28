@@ -11,6 +11,10 @@ class Triangle extends Polygon {
     double a, b, c;
 
     Triangle(double a, double b, double c) {
+        //헤론의 공식을 위해 사전 예외처리
+        if (a <= 0 || b <= 0 || c <= 0 || a + b <= c || a + c <= b || b + c <= a) {
+            throw new IllegalArgumentException("삼각형이 아닙니다.");
+        }
         this.a = a;
         this.b = b;
         this.c = c;
@@ -49,9 +53,19 @@ public class Q5 {
         for (int i = 0; i < k; i++) {
             String t = sc.next();
             // TODO: 입력받은 t의 값에 따라 Polygon 타입의 참조변수 p 에 알맞은 구현체를 넣어(참조해)줍니다.
+            Polygon p = null;
             // TODO: triangle은 세변 a, b, c를 입력받습니다.
             // TODO: rect은 넓이(w)와 높이(h) 값을 입력받습니다.
+            if (t.equals("triangle")) {
+                p = new Triangle(sc.nextDouble(), sc.nextDouble(), sc.nextDouble());
+            } else if (t.equals("rect")) {
+                p = new Rectangle(sc.nextDouble(), sc.nextDouble());
+            } else {
+                System.out.println("error");
+                continue;
+            }
             // TODO: System.out.println(p.area() + " " + p.perimeter()); 를 선언하여 면적과 둘레를 출력한다.
+            System.out.println(p.area() + " " + p.perimeter());
         }
     }
 }
