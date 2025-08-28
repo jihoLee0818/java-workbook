@@ -19,5 +19,20 @@ public class Q6 {
         }
 
         // TODO: 합집합과 교집합 구해 출력
+        Set<Integer> unionSet = new HashSet<>(list1);
+        unionSet.addAll(list2);
+
+        for (Integer integer : unionSet) {
+            System.out.print(integer + " ");
+        }
+        System.out.println();
+
+        Set<Integer> intersectionSet = new HashSet<>(list1);
+        intersectionSet.retainAll(list2);
+
+        for (Integer num : intersectionSet) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
     }
 }
